@@ -67,10 +67,10 @@ const typed = new  Typed('.profession', {
 // Download Resume
 let resumeDownload = document.getElementById("btnDownload");
 resumeDownload.addEventListener("click", () => {
-  const resumePath = "resume/SizweResume.docx";
+  const resumePath = "resume/SizweResume.pdf";
   let link = document.createElement("a");
 
-  link.download = "SizweResume.docx";
+  link.download = "SizweResume.pdf";
   link.href = resumePath;
   document.body.appendChild(link);
 
