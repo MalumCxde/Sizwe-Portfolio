@@ -50,11 +50,6 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact 
 ScrollReveal().reveal('.home-contact h1, .about-img', {origin: 'left'}) 
 ScrollReveal().reveal('.home-contact p, .about-content', {origin: 'right'})
 
-//  Download Resume function
-function downloadResume () {
-
-}
-
 //Animation typed.js
 const typed = new  Typed('.profession', {
     strings: ['Mobile Applications Developer...', 'System Support Analyst...'],
